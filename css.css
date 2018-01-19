@@ -1,0 +1,25 @@
+#grades{
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+}
+#final{
+    text-align: center;
+}
+#grades{
+    text-align: center;
+}
+#gradeNoFinal{
+    text-align: center;
+}
+body{
+    background-color: azure;
+    text-align: center;
+}
+
+#all {
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    width: 19%;
+}

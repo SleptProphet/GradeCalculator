@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="css.css"/>
+    <title>Grade Calculator</title>
+</head>
+<body>
+Calculate Your Grades!
+<div id="all">
+    <table id="grades">
+        <tr>
+            <th>
+                <input type="text" placeholder="Grade" id="grade1">
+            </th>
+            <th>
+                <input type="text" placeholder="Weight" id="weight1">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="text" placeholder="Grade" id="grade2">
+            </th>
+            <th>
+                <input type="text" placeholder="Weight" id="weight2">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="text" placeholder="Grade" id="grade3">
+            </th>
+            <th>
+                <input type="text" placeholder="Weight" id="weight3">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="text" placeholder="Grade" id="grade4">
+            </th>
+            <th>
+                <input type="text" placeholder="Weight" id="weight4">
+            </th>
+        </tr>
+        <tr id="gradeNoFinal"></tr>
+    </table>
+    <button id="calculate" onclick="current()">Calculate Your Current Grade</button>
+    <table id="final">
+        <tr>
+            <th>
+                <input type="text" id="gradeWanted" placeholder="Grade Wanted Post-Final">
+            </th>
+            <th>
+                <input type="text" id="finalWeight" placeholder="Weight of Final">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div id="gradeNeeded"></div>
+            </th>
+        </tr>
+    </table>
+    <button id="finalCalc" onclick="final()">Calculate Final Grade Needed</button>
+
+</div>
+</body>
+</html>
